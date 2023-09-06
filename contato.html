@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Contate-nos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="img/processor.png" />
+</head>
+<body id="contato">
+    <header id="header" class="contato">
+        <input type="checkbox" name="toggle-menu" id="toggle-menu">
+        <label for="toggle-menu" id="hamburger">
+            <span></span>
+        </label>
+        <a href="index.html" id="logo">
+            <span>SupeR CoMpuTinG</span> 
+        </a>
+        <ul id="nav">
+            <input type="checkbox" name="explore-menu" id="explore-menu">
+            <label for="explore-menu" class="nav-item">Explorar</label>
+            <ul id="subnav">
+                <li class="subnav-item"><a href="o_que_sao.html">O que é um supercomputador?</a></li>
+                <li class="subnav-item"><a href="cdc6600.html">A origem dos supercomputadores</a></li>
+                <li class="subnav-item"><a href="futuro.html">O futuro da computação</a></li>
+            </ul>
+            <li class="nav-item"><a href="sobre.html">Sobre</a></li>
+            <li class="nav-item"><a href="contato.html">Contato</a></li>
+        </ul>
+    </header>
+    <form action="" class="contato">
+        <label for="email">E-mail</label><br>
+        <input type="email" required="required" placeholder="  exemplo@gmail.com" name="email" id="email"><br>
+        <label for="nome">Nome</label><br>
+        <input type="text" placeholder="  Nome Sobrenome" required="required" name="nome" id="nome"><br>
+        <label for="tel">Telefone</label><br>
+        <input type="tel" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}" placeholder="  (99) 9999-9999" name="tel" id="tel" required="required"><br>
+        <label for="observ">Feedback</label><br>
+        <textarea name="observ" id="observ" cols="30" placeholder="  Envie sua mensagem aqui" rows="10"></textarea><br>
+        <input type="submit" value="Enviar" id="submit">
+    </form>
+    <footer class="contato">
+        <div id="footer-name">
+            <p>Trabalho acadêmico, sem fins lucrativos</p>
+            <p>Elionardo Diniz 2023</p>
+            <p>&copyTodos os direitos reservados.</p>
+        </div>
+        <a href="#content-banner"><span id="up-anchor"></span></a>
+    </footer>
+</body>
+</html>
